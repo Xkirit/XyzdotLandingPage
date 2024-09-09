@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+.marquee-item {
+  /* Control individual items, such as spacing */
+  margin-right: 3rem; /* Adjust gap */
+}
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 2s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100%{
+    opacity: 1;
+  }
+}
