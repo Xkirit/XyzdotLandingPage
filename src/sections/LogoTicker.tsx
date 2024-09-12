@@ -34,11 +34,11 @@ export const LogoTicker = () => {
   <div className="container">
     <div className="flex flex-col  items-center">
       <div className="flex-1 lg:w-1/3 lg:pr-5">
-        <h2 className="text-center font-thin ">Trusted by top Venture Firms</h2>
+        <h2 className="text-center font-thin tracking-wide ">Trusted by top Venture Firms</h2>
       </div>
       <div className="relative flex h-[200px] w-full flex-col items-center justify-center overflow-hidden rounded-lg bg-background md:shadow-xl">
         {/* Marquee for logos */}
-        <Marquee pauseOnHover className="[--duration:20s]">
+        <Marquee  className="[--duration:20s]">
           {logos.map((logo) => (
             <img
               key={logo.name}

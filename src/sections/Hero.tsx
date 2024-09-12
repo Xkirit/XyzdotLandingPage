@@ -37,7 +37,7 @@ export const Hero = () => {
       </div>
       
       <div className="container relative mt-16">
-        <h1 className="text-8xl md:text-[168px] md:leading-none font-semibold tracking-tighter bg-white bg-[radial-gradient(100%_100%_at_top_left,white,white,rgb(74,32,138,.5))] text-transparent bg-clip-text text-center">XYZ</h1>
+        <h2 className="text-7xl md:text-[168px] md:leading-none  py-3  font-medium tracking-tighter bg-white bg-[radial-gradient(100%_100%_at_top_left,white,white,rgb(74,32,138,.5))] text-transparent bg-clip-text text-center">{'<xyz/>'}</h2>
         <p className="text-lg text-white/70 mt-5 md:text-xl max-w-xl mx-auto text-center">
           Meet the new Age of Social media
         </p>
